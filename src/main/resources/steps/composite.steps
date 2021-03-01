@@ -1,0 +1,8 @@
+Composite: When I enter $userEmail and $userPassword on login form
+When I click on an element by the xpath '//*[@id="lpc-header-nav"]/div/div/div[1]/div/nav/ul[2]/li[1]/a'
+When I wait until an element with the xpath '//div[@class="login__form-header"]' appears
+When I click on an element by the xpath '//*[@id="usernameOrEmail"]'
+When I enter `<userEmail>` in field located `By.xpath(//*[@id='usernameOrEmail'])`
+When I click on an element by the xpath '//button[@type="submit"]'
+When I wait until an element with the xpath '//*[@id="password"]' appears
+When I enter `<userPassword>` in field located `By.xpath(//*[@id='password'])`
